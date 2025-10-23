@@ -1,0 +1,162 @@
+
+    .justbuttons{
+        background-color:rgb(200, 0, 0);
+        color:white;
+        border:none;
+        height:36px;
+        width:105px;
+        border-radius: 2px;
+        cursor:pointer;
+        margin-right: 8px;
+    }
+    .join{
+         background-color: white;
+         border-color: rgb(41,118,211);
+         border-style: solid;
+         border-width: 1px;
+         color:rgb(41,118,211);
+         height:36px;
+         width:62px;
+         border-radius: 2px;
+         cursor:pointer;
+         
+    }
+    .tweet{
+        background-color: rgb(2,158,255);
+        color: white;
+        border:none;
+        height:36px;
+        width:74px;
+        border-radius:18px;
+        font-weight: bold;
+        font-size: 15px;
+        cursor:pointer;
+        margin-left:8px;
+    }
+    .uber{
+        background-color: black;
+        border:none;
+        color: white;
+        height: 36px;
+        width: 105px;
+        margin-top:8px;
+    }
+    .uber:active {
+        opacity:0.7;
+    }
+    .amazon{
+        background-color: rgb(255, 216, 20);
+        color: black;
+        height: 30px;
+        width:155px ;
+        border:none;
+        border-radius: 18px;
+        margin-top: 8px;
+    }
+    .amazon:hover{
+        background-color: goldenrod;
+    }
+    .github{
+        background-color: rgb(46,164,79);
+        color:white;
+        height:35px;
+        width: 99px;
+        border:none;
+        border-radius:6px;
+        margin-top: 8px;
+        /* box-shadow: rgba(0, 0, 0, 0.2);
+        transition: box-shadow 0.3s ; */
+
+    }
+    .github{
+        box-shadow: rgba(0, 0, 0, 0.2);
+        /* transition: box-shadow 0.3s ; */
+    }
+
+    .get{
+        background-color: rgb(121,82,179);
+        color: white;
+        height:36px;
+        width: 105px;
+        border: none;
+        border-radius: 3px;
+        margin-top:8px;
+    }
+    .get:hover{
+        background-color: rgb(105, 39, 203);
+    }
+    .down{
+        background-color: white;
+        color:rgb(108,117,125);
+        height:36px;
+        width:105px;
+        border:none;
+        border-radius:3px;
+        margin-top: 8px;
+        border-color:rgb(108,117,125);
+        border-width: 1px;
+        border-style:solid;
+    }
+    .down:hover{
+        background-color:rgb(108,117,125);
+        color: white;
+    }
+    .link{
+        background-color: rgb(10,102,194);
+        color: white;
+        height:37px;
+        width: 185px;
+        border: none;
+        border-width:1px;
+        border-style:solid;
+        border-radius: 18px;
+        margin-top: 8px;
+    }
+    .link:hover{
+        background-color: rgb(3, 82, 161);
+    }
+    .din{
+        background-color: white;
+        color: rgb(10,102,194);
+        height:37px;
+        width:105px;
+        border-color:rgb(10,102,194);
+        border-style: solid;
+        border-radius:18px ;
+        margin-left: 8px;
+        font-size: 16px;
+    }
+    .din:hover{
+        background-color: rgb(113, 164, 214);
+        color: white;
+      box-shadow: 0 0 1px rgba(10,102,194,0.1);
+      border-width: 3 px;
+      
+    }
+    .one{
+        border:5px solid black;
+        height:auto;
+        width:70px;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        font-size:20px;
+        margin:50px;
+        margin-right:5px;
+        border-radius:5px;
+        background-color:green;
+        color:white;
+        /* border:none; */
+        transition: all 1s ease-in-out;
+        opacity:1;
+        cursor:pointer;
+        box-sizing:border-box;
+        padding:10px;
+    }
+    /* div:hover{
+        color:green;
+        background-color:white;
+        border:1px solid green;
+    } */
+
+

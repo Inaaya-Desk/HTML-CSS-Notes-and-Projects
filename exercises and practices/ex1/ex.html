@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>exercise</title>
+    </head>
+     <style>
+     input {
+         all: unset;
+     }
+    </style>
+
+    <style>
+        .box{
+            border: solid  black 1px;
+            font-family: arial;
+            border-radius: 6px;
+            height:10px;
+            line-height: 40px;
+            padding: 12px;
+        }
+        .gog{
+            border: solid whitesmoke 1px;
+            border-radius: 15px;
+            height: 10px;
+            line-height: 40px;
+            padding: 12px;
+            width: 440px;
+            font-family: arial;
+            font-size: 15px;
+             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        }
+        .email{
+            font-size: 15px;
+            font-family: arial;
+            color: gray;
+        }
+        .search{
+            border:1px solid black;
+            border-radius: 3px;
+            height: 30px;
+            width: 350px;
+            border-width: 2px;
+
+        }
+        .by{
+            color: rgb(109, 109, 94);
+            font-family: arial;   
+        }
+        .agree{
+           border-radius: 20px;
+           background-color: rgb(16, 105, 222);
+           border: none;
+           color: white;
+           font-weight: 450;
+             height: 39px;
+            width: 350px;
+            font-family: arial;
+            font-size: 16px;
+        }
+        .thumbnail{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+        }
+        .what{
+            font-family: arial;
+            font-size: 17px;
+            color: rgb(99, 94, 94);
+        }
+        #tweet{
+            border-radius: 50px;
+            background-color: rgb(63, 117, 233);
+            font-size: 13px;
+            font-family: arial;
+            font-weight: 900;
+            border: none;
+            color: white;
+            height: 35px;
+            width: 70px;
+            margin-left: 50px;
+        }
+        div{
+            display:flex;
+            align-items:center;
+        }
+        div > * {
+            margin: 0 5px 0 5px
+        }
+    </style>
+    <input>
+                               
+        <input  class="box" type="text" placeholder="Search"></input>
+       <br>
+        <br>
+        <input  class="gog" type="text" placeholder="Search Google or type a URL"></input>
+        <br>
+
+        <br>
+
+        <p class="email"> Email</p>
+               <input class="search" type="text" ></input>
+        <br>
+        <p class="by">By clicking Agree & Join,you agree to the Privacy Policy. </p>
+        
+        <button class="agree">Agree & Join</button>
+        <br>
+        <br>
+        <div><img class="thumbnail" src="thumbnail-1.webp" alt="">
+        <p class="what" >What's happening?</p>
+
+        <button id="tweet" >Tweet</button></div>
+    </body>
+    
+</html>

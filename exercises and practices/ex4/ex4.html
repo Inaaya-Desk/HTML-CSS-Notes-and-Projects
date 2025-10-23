@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Youtube.com Clone</title>
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <style>
+        p{
+            font-family:arial;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        .thumbnail{
+            width: 200px;
+             display: block;
+            }
+            .search-bar{
+            display: block;
+            }
+            .video-title{
+                margin-top: 0;
+                font-size: 14px;
+                font-weight:500;
+                line-height: 20px;
+                margin-bottom: 12px;
+            }
+           .video-preview{
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            width:100%;
+            margin-bottom: 20px;
+           }
+           .channel-picture{
+            display: inline-block;
+            width: 50px;
+            vertical-align: top;
+           }
+           .video-info{
+            display:flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-direction: column;
+          
+          
+           }
+           /* .profile-picture{
+            width:40px;
+            border-radius: 50px;
+           } */
+           .thumbnail-row{
+            margin-right: 15px;
+
+           }
+           .video-author,
+           .video-stats{
+            font-size: 12px;
+            color: rgb(79, 77, 77);
+            margin-right: 150px;
+            font-weight: 500;
+           }
+           .author{
+            margin-right: 85px;
+           }
+           .twitter-now{
+              display: flex;
+            justify-content: flex-end; 
+            }
+
+        </style>
+       
+    </head>
+    <body>
+         <input class="search-bar" type="text" 
+        placeholder="Search">
+       
+        <div class="video-preview" >
+            <div class="thumbnail-row" >
+                 <img class="thumbnail" src="thumbnail-4.webp">
+            </div> 
+            <div>
+                <div class="channel-picture" >
+                    <!-- <img class="profile-picture" src="channel-4.jpeg" alt=""> -->
+                </div>
+                <div class="video-info" >        
+                     <p class="video-title">
+                      The Simplest Math Problem No One Can Solve <br>
+                      - Collatz Conjecture
+                    </p>
+                   <div class="author" >
+                     <p  class="video-author">
+                       Ventasium
+                    </p>
+                   </div>
+                    <div class="stats" >
+                         <p class="video-stats">
+                        1.8K views &#183; 4 months ago
+                     </p>
+                    </div>
+                </div>
+                <!-- <div class="twitter-now" >
+                     <button class="tweet" >Tweet</button>
+                </div> -->
+               
+       
+
+            </div>
+          
+        </div>
+
+    </body>
+</html>
